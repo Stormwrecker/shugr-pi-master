@@ -98,7 +98,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 display = pygame.Surface((480, 270)).convert()
 midscreen_x = display.get_width() // 2
 midscreen_y = display.get_height() // 2
-pygame.display.set_caption("ShugrPi OS")
+pygame.display.set_caption("Raspberry Pi Pygame OS")
 clock = pygame.time.Clock()
 
 
