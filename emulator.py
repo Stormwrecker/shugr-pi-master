@@ -1,7 +1,6 @@
 """A game-launcher OS designed to run python applications inside of a Raspberry Pi"""
 
 PATH = "games"
-# PATH = "C:/Users/rebel/PycharmProjects/"
 
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
