@@ -28,7 +28,12 @@ The emulator runs a 'translator' in a thread that converts GPIO input into keybo
 ## Screenshots
 <img width="479" height="269" alt="image" src="https://github.com/user-attachments/assets/65c7b015-99ad-4820-97bd-46492b58b8e4" />
 
-I just inserted some dummy games for a test.
+I just inserted some dummy games for a test. The game/project on the left does not have a thumbnail available, thus the error image.
+Each thumbnail has `.set_colorkey(WHITE)` called on it, so keep that in mind when crafting one.
+The banner on the bottom displays the corrected name of the master folder of the selected project (e.g. `Flappy_bird` -> `Flappy Bird`).
+The banner on the top displays the time (24-hour format) and the status of your internet connection (based on whether your Ipv4 matches `127.0.0.1` or not).
+The time is based off of your Pi's time, and the wifi status updates every three seconds. Also, displayed under the top banner is your framerate.
+This number should always stay around 60.
 
 
 ## Notes
