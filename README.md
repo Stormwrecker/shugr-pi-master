@@ -26,7 +26,7 @@ The emulator runs a 'translator' in a thread that converts GPIO input into keybo
 
 
 ## Screenshots
-<img width="479" height="269" alt="image" src="https://github.com/user-attachments/assets/65c7b015-99ad-4820-97bd-46492b58b8e4" />
+<img width="477" height="268" alt="image" src="https://github.com/user-attachments/assets/1bd94c81-a854-4be3-9f94-44d63abeabc1" />
 
 I just inserted some dummy games for a test. The game/project on the left does not have a thumbnail available, thus the error image.
 Each thumbnail has `.set_colorkey(WHITE)` called on it, so keep that in mind when crafting one.
